@@ -19,4 +19,4 @@ jobs:
           chmod +x /usr/local/bin/hadolint
 
       - name: Lint Dockerfile
-        run: hadolint Dockerfile
+        run: /usr/local/bin/hadolint Dockerfile
